@@ -85,6 +85,8 @@ PRODUCT_PACKAGES += \
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     SlimFileManager \
+    ScreenRecorder \
+    libscreenrecorder \
     LatinIME \
     BluetoothExt \
     DashClock
