@@ -87,7 +87,6 @@ PRODUCT_PACKAGES += \
     SlimFileManager \
     ScreenRecorder \
     libscreenrecorder \
-    OmniSwitch \
     LatinIME \
     BluetoothExt \
     DashClock
