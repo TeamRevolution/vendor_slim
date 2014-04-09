@@ -53,7 +53,8 @@ PRODUCT_COPY_FILES += \
 
 # Workaround for NovaLauncher zipalign fails
 PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+    vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk \
+    vendor/slim/prebuilt/common/app/RevolutionThemeChooser.apk:system/app/RevolutionThemeChooser.apk
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
@@ -85,6 +86,7 @@ PRODUCT_PACKAGES += \
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     SlimFileManager \
+    RevolutionThemeChooser \
     ScreenRecorder \
     libscreenrecorder \
     LatinIME \
