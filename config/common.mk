@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
     RevolutionThemeChooser \
     ScreenRecorder \
     libscreenrecorder \
+    OmniSwitch \
     LatinIME \
     BluetoothExt \
     DashClock
