@@ -54,7 +54,9 @@ PRODUCT_COPY_FILES += \
 # Workaround for NovaLauncher zipalign fails
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk \
-    vendor/slim/prebuilt/common/app/RevolutionThemeChooser.apk:system/app/RevolutionThemeChooser.apk
+    vendor/slim/prebuilt/common/app/RevolutionThemeChooser.apk:system/app/RevolutionThemeChooser.apk \
+    vendor/slim/prebuilt/common/app/RevoBackup.apk:system/app/RevoBackup.apk \
+    vendor/slim/prebuilt/common/app/RevoWifi.apk:system/app/RevoWifi.apk
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
@@ -93,6 +95,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SlimFileManager \
     RevolutionThemeChooser \
+    RevoBackup \
+    RevoWifi \
     ScreenRecorder \
     libscreenrecorder \
     OmniSwitch \
