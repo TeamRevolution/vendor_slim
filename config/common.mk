@@ -56,7 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk \
     vendor/slim/prebuilt/common/app/RevolutionThemeChooser.apk:system/app/RevolutionThemeChooser.apk \
     vendor/slim/prebuilt/common/app/RevoBackup.apk:system/app/RevoBackup.apk \
-    vendor/slim/prebuilt/common/app/RevoWifi.apk:system/app/RevoWifi.apk
+    vendor/slim/prebuilt/common/app/RevoWifi.apk:system/app/RevoWifi.apk \
+    vendor/slim/prebuilt/common/app/PowerBattery.apk:system/priv-app/PowerBattery.apk
 
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
@@ -97,6 +98,7 @@ PRODUCT_PACKAGES += \
     RevolutionThemeChooser \
     RevoBackup \
     RevoWifi \
+    PowerBattery \
     ScreenRecorder \
     libscreenrecorder \
     OmniSwitch \
