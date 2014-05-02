@@ -95,10 +95,6 @@ PRODUCT_PACKAGES += \
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     SlimFileManager \
-    RevolutionThemeChooser \
-    RevoBackup \
-    RevoWifi \
-    PowerBattery \
     ScreenRecorder \
     libscreenrecorder \
     OmniSwitch \
