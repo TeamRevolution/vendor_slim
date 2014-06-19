@@ -173,8 +173,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Versioning System
-# KitKat SlimKat reopen code
-PRODUCT_VERSION_MAJOR = 4.4.3
+# KitKat SlimKat freeze code
+PRODUCT_VERSION_MAJOR = 4.4.4
 PRODUCT_VERSION_MINOR = R
 PRODUCT_VERSION_MAINTENANCE = 2.0
 ifdef SLIM_BUILD_EXTRA
