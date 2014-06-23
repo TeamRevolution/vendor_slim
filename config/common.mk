@@ -80,7 +80,6 @@ PRODUCT_PACKAGES += \
     Camera \
     CellBroadcastReceiver \
     Development \
-    SpareParts \
     Superuser \
     su
 
@@ -101,12 +100,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
        vendor/slim/config/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml \
        vendor/slim/config/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
-
-# DSPManager
-PRODUCT_PACKAGES += \
-    DSPManager \
-    libcyanogen-dsp \
-    audio_effects.conf
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
